@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# datasets (download with data/download_data.py)
+data/pcam/
+data/focuspath/
+*.h5
+*.h5.gz
+*.zip
+*.part
+
+# large / intermediate model files
+models/*.pt
+models/*_pre.onnx
+models/*.onnx.data
+
+results/tmp/

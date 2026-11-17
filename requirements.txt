@@ -1,0 +1,25 @@
+# core image processing
+numpy>=1.24
+scipy>=1.10
+opencv-python-headless>=4.8
+scikit-image>=0.21
+matplotlib>=3.7
+pandas>=2.0
+scikit-learn>=1.3
+h5py>=3.9
+
+# deep learning + edge deployment
+torch>=2.1
+torchvision>=0.16
+onnx>=1.15
+onnxruntime>=1.17
+
+# API
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9
+
+# notebooks / data
+jupyter
+tqdm
+gdown

@@ -1,0 +1,10 @@
+# Lightweight runtime for the API / Docker image - no PyTorch needed
+numpy>=1.24
+scipy>=1.10
+opencv-python-headless>=4.8
+scikit-image>=0.21
+matplotlib>=3.7
+onnxruntime>=1.17
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9
